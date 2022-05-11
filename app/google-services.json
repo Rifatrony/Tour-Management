@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26822042929",
+    "project_id": "tour-management-8c5ef",
+    "storage_bucket": "tour-management-8c5ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26822042929:android:142efdfdc02433a3a77c10",
+        "android_client_info": {
+          "package_name": "com.example.torumanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26822042929-llhp6m23mpnpirfu215q3rkr67vp5pns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlQTgEU3SKHQYA8oh10T1OVc9-oshYHrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26822042929-llhp6m23mpnpirfu215q3rkr67vp5pns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

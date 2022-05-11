@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tour Management</string>
+    <string name="add_member">Add Member</string>
+    <string name="amount">Amount</string>
+    <string name="member_number">Member Number</string>
+    <string name="member_name">Member Name</string>
+    <string name="members">Members</string>
+    <string name="add_money">Add Money</string>
+    <string name="date">Date</string>
+    <string name="reason">Reason</string>
+    <string name="add_cost">Add Cost</string>
+    <string name="save">Save</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="cost_details">Cost Details</string>
+</resources>
