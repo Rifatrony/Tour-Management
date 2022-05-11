@@ -21,10 +21,8 @@
             android:id="@+id/costReasonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reason"
-            android:padding="12dp"
-            android:layout_marginTop="8dp"
-            android:textSize="16sp"
+            android:padding="8dp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:textStyle="bold"
             />
@@ -33,26 +31,19 @@
             android:id="@+id/costDateText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contact: 01628979644"
-            android:padding="8dp"
+            android:padding="6dp"
             android:textSize="16sp"
             android:textColor="@color/black"
-            android:textStyle="bold"
             />
 
         <TextView
             android:id="@+id/costAmountText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Amount: 2000"
-            android:padding="8dp"
+            android:padding="6dp"
             android:textSize="16dp"
-            android:textColor="#4CAF50"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"
+            android:textColor="#F40C0C"
             />
-
-
 
     </LinearLayout>
 

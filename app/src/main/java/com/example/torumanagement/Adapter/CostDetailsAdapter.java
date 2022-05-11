@@ -12,16 +12,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.torumanagement.Model.AddCostModel;
 import com.example.torumanagement.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CostDetailsAdapter extends RecyclerView.Adapter<CostDetailsAdapter.CostViewHolder> {
 
     Context context;
-    List<AddCostModel> costModelList;
+    ArrayList<AddCostModel> costModelList;
 
     public CostDetailsAdapter(Context context, List<AddCostModel> costModelList) {
         this.context = context;
-        this.costModelList = costModelList;
+        this.costModelList = (ArrayList<AddCostModel>) costModelList;
     }
 
     @NonNull
@@ -34,9 +35,9 @@ public class CostDetailsAdapter extends RecyclerView.Adapter<CostDetailsAdapter.
     @Override
     public void onBindViewHolder(@NonNull CostViewHolder holder, int position) {
         AddCostModel data = costModelList.get(position);
-        holder.reason.setText(data.getReason());
-        holder.date.setText(data.getDate());
-        holder.amount.setText(data.getAmount());
+        holder.reason.setText("Reason: "+data.getReason());
+        holder.date.setText("Date: "+data.getDate());
+        holder.amount.setText("Amount: "+data.getAmount());
     }
 
     @Override

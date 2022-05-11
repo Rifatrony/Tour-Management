@@ -83,7 +83,7 @@ public class AddMemberActivity extends AppCompatActivity implements View.OnClick
         addMember.child(uid).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
-                showToast("Success");
+                showToast("Member Added Successfully");
 
                 memberNameEditText.setText("");
                 memberNumberEditText.setText("");
